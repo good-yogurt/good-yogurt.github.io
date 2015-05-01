@@ -3206,6 +3206,7 @@ object {
   font-weight: 700;
   display: inline-block;
   text-decoration: none;
+  text-shadow: 0 -1px 1px #FFF, -1px 0 1px #FFF, 1px 0 1px #000;
 }
 .tag:hover {
   color: #404040;

@@ -95,7 +95,6 @@ template {
  */
 a {
   background: transparent;
-  background-position:100% 100%;
 }
 
 /**
@@ -424,7 +423,6 @@ body:after {
   background-repeat:no-repeat;
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.15) 95%, rgba(0, 0, 0, 0.15) 100%);
   -ms-background-size: 100% 26px;
-  background-image:url("https://camo.githubusercontent.com/5d3482fd0d66e3094c6305b0f7cec85235563032/687474703a2f2f7777772e62696363616d6572612e636f6d2f696d616765732f70726f647563742f4c2f343934393137363136303437366c2e6a7067");
   background-size: 100% 26px;
 }
 body.debug:after {

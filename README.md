@@ -3,3 +3,4 @@
 
 ## これ何？
 課題用のホームページです。
+[good-yogurt.github.io](http://good-yogurt.github.io/)

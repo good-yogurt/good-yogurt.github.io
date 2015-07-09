@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+
+/*********************************************
+ここから固有のスタイルを記述
+*********************************************/
+
+body {
+  background-color: #004D40;
+}
+.a-side {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  padding: 100px 0;
+  text-align:center;
+}
+.a-side-logo {
+}
+.a-side-name {
+  font-size: 60px;
+}
+.a-side-box {
+}
+
+.b-side {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  padding: 150px 0;
+  text-align: center;
+  background-color: white;
+  background-image: url('../img/back.jpg');
+  background-size: cover;
+  color: #004D40;
+}
+.a-side-title,
+.b-side-title {
+  padding: 0;
+  font-size: 50px;
+  margin: 20px 0 0;
+}
+.b-side-text {
+  padding: 0 50px;
+}
+.sg-text-list >li {
+  margin: 20px 10px 0;
+  width: 270px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.sg-image-list >li {
+  margin: 20px 10px 0;
+  width: 200px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.logo{
+  max-width: 200px;
+  max-height: 200px;
+}
+.logo-small {
+  max-width: 50px;
+  height: 50px;
+}
+.list-img {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 20%;
+}
+.a-side-box-button {
+  margin: 30px 0 0;
+  padding: 0 10px;
+  height: 50px 0;
+  line-height: 52px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #248;
+  color: #fff;
+  background-color: #24d;
+  color: #fff;
+}
+.a-side-box-button:hover {
+  background-color: #FF0000;
+  color: #fff;
+  cursor: pointer;
+}
+.tail-list >li {
+  margin: 20px 10px 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.sg-mouse-over-box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+/*.sg-mouse-over-box .sg-mouse-over-img {
+    max-width: 200px;
+    height: 200px;
+    min-width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+}*/
+/*.sg-mouse-over-box .sg-mouse-over-caption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    display: none;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 13px 12px;
+}*/
+.sg-mouse-over-img {
+    max-width: 200px;
+    height: 200px;
+    min-width: 20%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    vertical-align: middle;
+}
+
+.sg-mouse-over-box {
+  position: relative;
+	overflow: hidden;
+	width: 200px;
+}
+.sg-mouse-over-caption {
+  position: absolute;
+  color: #fff;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 0;
+}
+.sg-mouse-over-box:hover .sg-mouse-over-caption {
+  opacity: 1;
+}

@@ -104,12 +104,11 @@ body {
   top: 0;
   vertical-align: middle;
 }
-
-.sg-mouse-over-box {
+/*.sg-mouse-over-box {
   position: relative;
 	overflow: hidden;
 	width: 200px;
-}
+}*/
 .sg-mouse-over-caption {
   position: absolute;
   color: #fff;

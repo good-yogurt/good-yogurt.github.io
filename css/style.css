@@ -111,7 +111,7 @@ body {
 	width: 200px;
 }
 .sg-mouse-over-caption {
-  /*position: absolute;*/
+  position: absolute;
   color: #fff;
 	top: 0;
 	left: 0;

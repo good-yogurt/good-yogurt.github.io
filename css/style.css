@@ -42,13 +42,13 @@ body {
   padding: 0 50px;
 }
 .sg-text-list >li {
-  margin: 20px 10px 0;
+  margin: 20px 0 0 10px;
   width: 270px;
   vertical-align: middle;
   display: inline-block;
 }
 .sg-image-list >li {
-  margin: 20px 10px 0;
+  margin: 20px 0 0 20px;
   width: 200px;
   vertical-align: middle;
   display: inline-block;
@@ -104,11 +104,6 @@ body {
   top: 0;
   vertical-align: middle;
 }
-/*.sg-mouse-over-box {
-  position: relative;
-	overflow: hidden;
-	width: 200px;
-}*/
 .sg-mouse-over-caption {
   position: absolute;
   color: #fff;

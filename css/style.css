@@ -6,40 +6,39 @@
 body {
   background-color: #004D40;
 }
-.a-side {
+.color-back-container {
   width: 100%;
   height: auto;
   margin: 50px 0;
   padding: 100px 0;
   text-align:center;
 }
-.a-side-logo {
+.color-back-container-logo {
 }
-.a-side-name {
+.color-back-container-name {
   font-size: 60px;
 }
-.a-side-box {
+.color-back-container-box {
 }
 
-.b-side {
+.img-back-container {
   width: 100%;
   height: auto;
   margin: 50px 0;
-  padding: 150px 0;
+  padding: 150px 50px;
   text-align: center;
   background-color: white;
   background-image: url('../img/back.jpg');
   background-size: cover;
   color: #004D40;
 }
-.a-side-title,
-.b-side-title {
+.color-back-container-title,
+.img-back-container-title {
   padding: 0;
   font-size: 50px;
   margin: 20px 0 0;
 }
-.b-side-text {
-  padding: 0 50px;
+.img-back-container-text {
 }
 .sg-text-list >li {
   margin: 20px 0 0 10px;
@@ -61,12 +60,15 @@ body {
   max-width: 50px;
   height: 50px;
 }
+.logo-small:hover {
+  cursor: pointer;
+}
 .list-img {
   max-width: 200px;
   max-height: 200px;
   min-width: 20%;
 }
-.a-side-box-button {
+.color-back-container-box-button {
   margin: 30px 0 0;
   padding: 0 10px;
   height: 50px 0;
@@ -78,7 +80,7 @@ body {
   background-color: #24d;
   color: #fff;
 }
-.a-side-box-button:hover {
+.color-back-container-box-button:hover {
   background-color: #FF0000;
   color: #fff;
   cursor: pointer;

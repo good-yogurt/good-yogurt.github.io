@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-
 /*********************************************
 ここから固有のスタイルを記述
 *********************************************/
@@ -134,7 +132,7 @@ body {
 	width: 200px;
 }
 .sg-mouse-over-caption {
-  position: absolute;
+  /*position: absolute;*/
   color: #fff;
 	top: 0;
 	left: 0;
@@ -148,4 +146,7 @@ body {
 }
 .sg-mouse-over-box:hover .sg-mouse-over-caption {
   opacity: 1;
+}
+.br {
+  display: block;
 }
